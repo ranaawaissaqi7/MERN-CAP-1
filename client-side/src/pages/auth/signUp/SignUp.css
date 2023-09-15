@@ -1,0 +1,95 @@
+
+.sign-up-main-div .right-side{
+    background-image: url("../../../assets/authImages/cover.jpg");
+    background-position:top right ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.sign-up-main-div .left-side h1{
+    font-size:40px ;
+    line-height: 52px;
+    font-weight: 600;
+    color: var(--balck-color);
+}
+.sign-up-main-div .left-side p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.sign-up-main-div .left-side a{
+    color: var(--green-color);
+}
+.sign-up-main-div .left-side h2{
+    font-size:16px ;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--balck-color);
+}
+
+.sign-up-main-div .left-side .btn-success{
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    height: 56px;
+    border-radius: 18px;
+    border: 1px solid var(--green-color);
+}
+.sign-up-main-div .left-side .btn-danger{
+    height: 56px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    background-color: var(--white-color);
+    color: var(--gray-color);
+    border-radius: 18px;
+    border:1px solid var(--gray-color);
+}
+.sign-up-main-div .left-side .btn-danger:hover{
+
+    background-color:#ea4335;
+    color: var(--white-color);
+
+}
+
+.sign-up-main-div .left-side .btn-info{
+    height: 56px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    background-color: var(--white-color);
+    color: var(--gray-color);
+    border-radius: 18px;
+    border:1px solid var(--gray-color);
+}
+.sign-up-main-div .left-side .btn-info:hover{
+
+    background-color:#1877f2;
+    color: var(--white-color);
+
+}
+@media only screen and (max-width:1200px)  {
+    .sign-up-main-div .left-side .btn-danger{
+        width: 200px;
+    }
+
+    .sign-up-main-div .left-side .btn-info{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:991px)  {
+    .sign-up-main-div .left-side .btn-danger{
+        width: 100%;
+    }
+
+    .sign-up-main-div .left-side .btn-info{
+        width: 100%;
+    }
+}
